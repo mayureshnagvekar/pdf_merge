@@ -1,7 +1,7 @@
 import PyPDF2
 
-pdf_files = ['file1.pdf', 'file2.pdf', 'file3.pdf']
-output_path = 'merged_file.pdf'
+pdf_files = ['IBM PY0101EN Certificate Cognitive Class.pdf', 'IBMSkillsNetwork AI0117EN Certificate Cognitive Class.pdf']
+output_path = 'additional_Certificate.pdf'
 pdf_writer = PyPDF2.PdfFileWriter()
 for pdf_file in pdf_files:
     pdf_reader = PyPDF2.PdfFileReader(pdf_file)
